@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Philosopher:wght@400;700&display=swap');
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Philosopher', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+     max-width: 100%;
+     max-height: 100%;
+     overflow: hidden;
+     
+     
+     
+ }
+
+#home{
+    text-decoration: none;
+}
+
+ .Logo{
+     font-family:'Philosopher', sans-serif; 
+     font-weight: bold; 
+     background: transparent;  
+     font-size: 1rem;  
+     cursor: pointer;
+     color: black;
+ }
+
+ 
+
+ .navbtn a{
+     text-decoration: none;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 1rem;  
+     color: black;
+     z-index: 4;
+     font-weight: bold;
+     
+ }
+
+ .navcontainer{
+     background: #FCFCFC; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 10%;
+     padding: 1rem 0.2%;    
+ }
+
+
+
+ .navbtn li{
+     display: inline-block;
+     padding: 0rem 1.5rem; 
+     
+ }
+
+ .navbtn li:hover{
+     background: #4C6356;
+     border-radius: 5rem;
+     transition: 0.4s ease-in-out;
+ }
+
+ .navbtn a:hover{
+     color: white;
+     transition: 0.2s;
+ }
+    
+ .loginbtn{
+     border: none;
+     cursor: pointer;
+     z-index: 4;
+ }
+ 
+ 
+ #accbtn{
+     border: none;
+     padding: 0.5rem;
+     -webkit-border-radius: 2.25rem;
+    border-radius: 2.25rem;
+    background: #fcfcfc;
+    -webkit-box-shadow: 0.313rem 0.313rem 0.625rem #dbdbdb, -0.313rem -0.313rem 0.625rem #ffffff;
+    box-shadow: 0.313rem 0.313rem 0.625rem #dbdbdb, -0.313rem -0.313rem 0.625rem #ffffff;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;    
+ }
+ #accbtn:hover{
+     color: white;
+    -webkit-border-radius: 2.25rem;
+    border-radius: 2.25rem;
+    background: #4C6356;
+    -webkit-box-shadow: 0.313rem 0.313rem 0.625rem #cecbcb, -0.313rem -0.313rem 0.625rem #ffffff;
+    box-shadow: 0.313rem 0.313rem 0.625rem #cecbcb, -0.313rem -0.313rem 0.625rem #ffffff;
+     
+ }
+/* -------------------------------Navbarfinish----------------------------------------------------------------------------- */
+
+.maincontainer{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+
+.formcontainer{
+    max-width: 50%;
+    width: 50rem;
+    max-height: 80%;
+    height: 80%;
+    background: #4C6356;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+
+.title_container{
+    font-weight: bold;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 1.5rem;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+
+
+.formbox{
+    width: 100%;
+    display: inline-block;
+    justify-content: space-between;
+    margin: 0rem 0.5rem;
+    padding: 0.5rem;
+    border: none;
+}
+
+.inputbox{
+    margin-left: 0.2rem;
+    width: 100%;
+    margin-bottom: 1.2rem;
+}
+
+.inputbox input{
+    font-family: 'Nunito Sans', sans-serif;
+   width: 100%;
+   border: none;
+   outline: none;
+   border-radius: 0.5rem;
+   padding-left: 1rem;
+   background: rgb(255, 255, 255);
+   height: 2.5rem;
+   font-size: 1rem;
+}
+
+.subheads{
+    font-size: 1rem;
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+   
+}
+
+.submitbtn{
+    width: 100%;
+    
+    align-items: center;
+
+}
+
+
+#createbtn{
+    margin: 2% 20%;
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+    left: 0rem;
+    position: relative;
+    border: none;
+    border-radius: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+    
+}
+
+#createbtn:hover{
+    padding: 1.15rem;
+    background: wheat;
+}
+
+
+
+.imageholder{
+    position: relative;
+   
+}
+
+
+.imageholder img{
+    width: 22.375rem;
+    height: 40.75;
+   
+} 
+
+.haveanacc{
+    color: white;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: 0%;
+    
+}
+
+.forgotpass{
+
+    color: white;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left: -30%;
+    top: 2rem;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

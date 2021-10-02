@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Philosopher:wght@400;700&display=swap');
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Philosopher', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    background: white;
+}
+ 
+section .rightrectangle{
+    position: absolute;
+    margin-right: 0 10%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #4C6356;
+    clip-path: inset(0 9.5% 18% 67%);
+}
+
+ body{
+     max-width: 100%;
+     max-height: 100%;
+     overflow: hidden;
+     
+ }
+
+ .Logo{
+     font-family:'Philosopher', sans-serif; 
+     font-weight: bold; 
+     background: transparent;  
+     font-size: 1rem;  
+     cursor: pointer;
+     color: black;
+ }
+
+ 
+
+ .navbtn a{
+     text-decoration: none;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 1rem;  
+     color: black;
+     z-index: 4;
+     font-weight: bold;
+     
+ }
+
+ .navcontainer{
+     background: #FCFCFC; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 10%;
+     padding: 1rem 0.2%;    
+ }
+
+
+
+ .navbtn li{
+     position: relative;
+     display: inline-block;
+     padding: 0rem 1.5rem; 
+     z-index: 5;
+     
+ }
+
+ .navbtn li:hover{
+     background: #4C6356;
+     border-radius: 5rem;
+     transition: 0.4s ease-in-out;
+ }
+
+ .navbtn a:hover{
+     color: white;
+     transition: 0.2s;
+ }
+    
+ .loginbtn{
+     border: none;
+     cursor: pointer;
+     z-index: 4;
+ }
+ 
+ 
+ #accbtn{
+     border: none;
+     padding: 0.5rem;
+     -webkit-border-radius: 46px;
+border-radius: 46px;
+background: #4c6356;
+-webkit-box-shadow: 5px 5px 10px #3a4b41, -5px -5px 10px #5e7b6b;
+box-shadow: 5px 5px 10px #3a4b41, -5px -5px 10px #5e7b6b;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;    
+ }
+ #accbtn:hover{
+    background: #4C6356;
+box-shadow: inset 17px 17px 35px #3e5046,
+            inset -17px -17px 35px #5a7666;
+     
+ }
+
+
+ .bgcontainer{
+     height: 100vh;
+     margin: 0rem 10%;
+     padding: 0rem 0rem 0rem 6% ;
+     background: #FCFCFC; 
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .Infobox{
+     /* background: rgba(255, 99, 71,0.2);  */
+     width: 34.375rem;
+     height: 25rem;
+     margin-top: 3rem;
+     margin-left: 3rem;
+     position: relative;
+     
+ }
+
+ #firsttext{
+     /* background: turquoise; */
+     position: relative;
+     top: 9%;
+     color: #101311;
+     font-size: 1.8rem;
+     font-family: 'Philosopher', sans-serif;
+    
+ }
+
+ /* #shopwith{
+     background: rebeccapurple;
+     font-size: 56px;
+     font-family: 'Philosopher', sans-serif;
+ } */
+
+ .shopwithbox{
+     font-size: 3.125rem;
+     /* background: rebeccapurple; */
+     margin-top: 3rem;
+     font-weight: bold;
+     color: #59282C;
+     font-family: 'Philosopher', sans-serif;
+ }
+
+ .leafnowbox{
+     background: #4C6356;
+     margin-top: 1rem;
+     width: 23.3rem;
+     height: 5.58rem;
+     border-radius: 0.9rem;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 5rem;
+     font-size: 4rem;
+     font-family: 'Philosopher', sans-serif;
+     font-weight: bold;
+     color: white;
+     
+ }
+
+ .herotext{
+     padding: 1rem;
+     font-size: 3.5rem;
+     font-family: 'Philosopher', sans-serif;
+     font-weight: bold;
+     color: white;
+     text-align: center;
+     vertical-align: middle;
+     line-height: 5rem;
+     
+ }
+
+ .paragraph{
+     font-size: 0.9rem;
+     width: 21.875rem;
+     margin-top: 1rem;
+     margin-left: 0.2rem;
+     font-family: 'Nunito Sans', sans-serif
+ }
+
+ /* .plantbgbox{
+     margin: 0 10%;
+     width: 19.8rem;
+     height: 85vh;
+     
+ } */
+
+ .plantcontainer{
+     width: 15rem;
+     height: 80vh;
+     /* background: #4C6356; */
+    
+     
+ }
+
+  .plantcontainer img{
+     width: 24.375rem;
+     height: 43.75;
+     position: relative;
+     bottom: 10rem;
+     left: -15.5rem;
+     z-index: 1;
+ } 
+
+ .store{
+     margin: 1.2rem 5rem 2.5rem 22rem;
+     position: relative;
+     z-index: 5;
+
+ }
+
+ #storebtn{
+     border: none;
+     width: 15rem;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 1.5rem;
+     padding: 1.2rem;
+     border-radius: 2rem;
+     text-align: center;
+     font-weight: bold;
+     background: linear-gradient(to right, rgba(42, 43, 42,0.9), rgba(41, 150, 115, 0.836));
+     cursor: pointer;
+     color: white;
+     z-index: 5;
+     transition: 0.3s;
+     
+ }
+
+
+
+ #storebtn:hover{
+     width: 15.1rem;
+     padding: 1.55rem ;
+    background: linear-gradient(to right, rgba(41, 150, 115, 0.836),rgba(42, 43, 42,0.9));
+
+ }
+
+
+/* =================================================================MediaQueries====================================== */
+
+
+/* For Mobile Phones @media (max-width:480px){}
+For Tablets @media (max-width:960px){}
+For Laptops/Desktop @media (min-width:1025px){}
+For Hi-Res Laptops @media (max-width:1280px){} */
+
+
+
+@media (max-width: 768px) {
+    
+
+
+}

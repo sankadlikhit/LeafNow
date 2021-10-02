@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Philosopher:wght@400;700&display=swap');
+/* font-family: 'Nunito Sans', sans-serif;
+font-family: 'Philosopher', sans-serif; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ body{
+     max-width: 100%;
+     max-height: 100%;
+     overflow: hidden;
+     
+     
+     
+ }
+
+#home{
+    text-decoration: none;
+}
+
+ .Logo{
+     font-family:'Philosopher', sans-serif; 
+     font-weight: bold; 
+     background: transparent;  
+     font-size: 1rem;  
+     cursor: pointer;
+     color: black;
+ }
+
+ 
+
+ .navbtn a{
+     text-decoration: none;
+     font-family: 'Philosopher', sans-serif;
+     font-size: 1rem;  
+     color: black;
+     z-index: 4;
+     font-weight: bold;
+     
+ }
+
+ .navcontainer{
+     background: #FCFCFC; 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 0 10%;
+     padding: 1rem 0.2%;    
+ }
+
+
+
+ .navbtn li{
+     display: inline-block;
+     padding: 0rem 1.5rem; 
+     
+ }
+
+ .navbtn li:hover{
+     background: #4C6356;
+     border-radius: 5rem;
+     transition: 0.4s ease-in-out;
+ }
+
+ .navbtn a:hover{
+     color: white;
+     transition: 0.2s;
+ }
+    
+ .loginbtn{
+     border: none;
+     cursor: pointer;
+     z-index: 4;
+ }
+ 
+ 
+ #accbtn{
+     border: none;
+     padding: 0.5rem;
+     -webkit-border-radius: 2.25rem;
+    border-radius: 2.25rem;
+    background: #fcfcfc;
+    -webkit-box-shadow: 0.313rem 0.313rem 0.625rem #dbdbdb, -0.313rem -0.313rem 0.625rem #ffffff;
+    box-shadow: 0.313rem 0.313rem 0.625rem #dbdbdb, -0.313rem -0.313rem 0.625rem #ffffff;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;    
+ }
+ #accbtn:hover{
+    -webkit-border-radius: 2.25rem;
+    border-radius: 2.25rem;
+    background: #ede9e9;
+    -webkit-box-shadow: 0.313rem 0.313rem 0.625rem #cecbcb, -0.313rem -0.313rem 0.625rem #ffffff;
+    box-shadow: 0.313rem 0.313rem 0.625rem #cecbcb, -0.313rem -0.313rem 0.625rem #ffffff;
+     
+ }
+/* ----------------------------------------------------navbar---------------------------------------------- */
+
+ .container{
+     margin: 0 10%;
+     
+ }
+
+ .herobox{
+     margin: 0 ;
+     background: #4C6356;
+     height: 45vh;
+     position: relative;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     
+
+ }
+
+
+
+ .herobox span{
+     color: white;
+     font-family: 'Philosopher', sans-serif; 
+     position: absolute;
+     font-size: 3.5rem;    
+ }
+
+ .leafimg{
+    height: 50vh;
+    background: #FCFCFC;
+   
+ }
+  
+ .leafimg img{
+    position: relative;
+    width: 28.375rem;
+    height: 47.75;
+    float: right;
+    bottom: 19rem;
+    z-index: 5;
+    margin-left: 3rem;
+    
+
+ }
+  
+ .contentbox{
+     margin-top: 0;
+     height: 50vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     
+ }
+
+ .contentbox h3{
+     position: relative;    
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    left: 15rem;
+    bottom: 5.2rem;
+ }
+
+
+ .contentbox button{
+    position: relative;
+    left: 15rem;
+    bottom: 4.2rem;
+    padding: 1rem;
+    border: none;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, rgba(42, 43, 42,0.9), rgba(41, 150, 115, 0.836));
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 4rem;
+    -webkit-box-shadow: 0.313rem 0.313rem 0.625rem #dbdbdb, -0.313rem -0.313rem 0.625rem #ffffff;
+    box-shadow: 0.313rem 0.313rem 0.625rem #dbdbdb, -0.313rem -0.313rem 0.625rem #ffffff;
+ }
+
+ .contentbox button:hover{
+    background: linear-gradient(to right, rgba(41, 150, 115, 0.836),rgba(42, 43, 42,0.9));
+    bottom: 4.1rem;
+ }
+
+ .haveanacc{
+    position: relative;
+    left: 15rem;
+    bottom: 3.2rem;
+    color: black;
+
+ }
+
+
+
+
+
+ /* .leafimg{
+
+        width: 30.938rem;
+        height: 55rem;
+        transform: translateX(59%);
+        overflow: hidden;
+        
+
+ }
+
+ .leafimg img{
+    position: relative;
+    width: 32.375rem;
+    height: 51.75;
+    top: 22rem;
+    left: 10rem;
+
+ }
+
+  */
